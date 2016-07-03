@@ -1,6 +1,11 @@
 <?php
 
-$email = 'username';
-$password = 'password';
-
-$directory = '/home/user/Videos/Laracasts';
+$config = [
+    'debug' => false,
+    'logLevel' => 'high', // possible options: none (=normal), 'silent' and 'high'
+    'credentials' => [
+        'email' => null, 
+        'password' => null,
+    ],
+    'seriesDirectory' => '/My/Awesome/Path/To/Laracast/Lessons',
+];
