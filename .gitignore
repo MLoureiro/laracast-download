@@ -1,3 +1,4 @@
 config.php
 *-response.html
 cookie.jar
+.cache
